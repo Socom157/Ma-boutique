@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(255, 254, 180, 0.959);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    box-shadow: 1px 1px 5px 2px black;
+    width: 30%;
+    background-color: white;
+    height: 37vh;
+}
+label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    
+}
+.label{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    width: 70%;
+    margin-left: 10%;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.submit{
+    border-bottom: none;
+    background-color: rgb(255, 145, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4vh;
+    width: 90%;
+    margin-left: 5%;
+}
+@media screen and   (max-width:600px){
+body{
+    background-color: rgba(255, 254, 180, 0.959);
+    display: flex;
+    
+    align-items: center;
+    height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    box-shadow: 1px 1px 5px 2px black;
+    width: 80%;
+    background-color: white;
+    height: 37vh;
+}
+label{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10%;
+    
+}
+.label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-left: 0;
+    text-align: center;
+    padding-bottom: 2vh;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    width: 70%;
+    margin-left: 10%;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.submit{
+    border-bottom: none;
+    background-color: rgb(255, 145, 0);
+    padding: 5px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 4vh;
+    width: 90%;
+    margin-left: 5%;
+}
+}

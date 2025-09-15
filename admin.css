@@ -1,0 +1,385 @@
+body{
+    background-color: rgb(255, 254, 175);
+}
+.phr1{
+    margin-top: 5vh;
+    color: #cf6400;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family:cursive;
+}
+.retour{
+    margin-left: 2vw;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 15px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+}
+.actions{
+    width: 100%;
+
+}
+.button1{
+    background-color:#915005;
+    color: rgb(228, 227, 227);
+    padding: 9px;
+    border-radius:0 13px 0 8px;
+    border: 1px solid rgb(97, 55, 0);
+    box-shadow: 0.5px 0.5px 2px 0.3px rgb(36, 17, 0);
+    margin-left: 10vw;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10vh;
+    transition:  0.3s;
+}
+.button1:hover:hover {
+  background-color: #ffa600;
+}
+.button2{
+    background-color:#1b82d6;
+    color: rgb(228, 227, 227);
+    padding: 9px;
+    border-radius:0 13px 0 8px;
+    border: 1px solid rgb(4, 181, 204);
+    box-shadow: 0.5px 0.5px 2px 0.3px rgb(0, 217, 255);
+    margin-left: 10vw;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 10vh;
+    transition:  0.3s;
+}
+.button2:hover:hover {
+  background-color: #0f0094;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+.categorie{
+    margin-top: 26vh;
+    display: flex;
+    flex-direction: column;
+}
+.styleadmin{
+    height:15vh;
+    width: 6vw;
+    border-radius: 5px;
+}
+p{
+    margin-top: 0;
+    font-size: 14px;
+}
+.descript{
+    margin-top: -2vh;
+    background-color: #201c02;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius:0 6px 0 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;   
+    box-shadow: 0.3px 0.4px 2px 0.5px black;
+    width: 25%;
+    margin-left: 37.5%;
+    background-color: white;
+    margin-top: 3vh;
+}
+label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    color: #753803;
+}
+
+input{
+    
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    width: 87%;
+    height: 4vh;
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.submit{
+    border: none;
+    background-color: rgb(223, 126, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    margin-top: 4vh;
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+.submit:hover{
+    background-color: #23d400;
+    transform: scale(1,1);
+}
+.submit2{
+    border: none;
+    background-color: rgb(223, 126, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    margin-top: 2vh;
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.submit2:hover{
+    background-color: #ff0000;
+    transform: scale(1,1);
+}
+.quitter{
+    
+    width: 5vw;
+    padding: 1vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 80%;
+    transition: 0.8s;
+}
+.quitter:hover{
+    background-color: #f38a00;
+    transform: scale(1,1);
+}
+h3{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 18%;
+    margin-left: 41%;
+    padding: 5px;
+    
+}
+th{
+    background-color: #a34f00;
+    color: white;
+    padding: 5px;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(-20px); /* Disparaît vers le haut */
+  pointer-events: none;
+  position: absolute;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+  position: relative;
+}
+
+@media screen and   (max-width:600px){
+   body{
+    background-color: rgb(255, 254, 175);
+}
+.phr1{
+    margin-top: 2vh;
+    color: #cf6400;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-family:cursive;
+}
+.retour{
+    margin-left: 2vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 13px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+}
+.actions{
+    width: 100%;
+    margin-top: 0;
+    text-align: center;
+    
+}
+.button1{
+    background-color:#915005;
+    color: rgb(228, 227, 227);
+    padding: 5px;
+    border-radius:0 10px 0 5px;
+    border: 1px solid rgb(97, 55, 0);
+    box-shadow: 0.5px 0.5px 2px 0.3px rgb(36, 17, 0);
+    margin-left: 0vw;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5vh;
+    transition:  0.3s;
+}
+.button1:hover:hover {
+  background-color: #ffa600;
+}
+.button2{
+    background-color:#1b82d6;
+    color: rgb(228, 227, 227);
+    padding: 5px;
+    border-radius:0 10px 0 5px;
+    border: 1px solid rgb(4, 181, 204);
+    box-shadow: 0.5px 0.5px 2px 0.3px rgb(0, 217, 255);
+    margin-left: 5vw;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5vh;
+    transition:  0.3s;
+}
+.button2:hover:hover {
+  background-color: #0f0094;
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+.categorie{
+    margin-top: 26vh;
+    display: flex;
+    flex-direction: column;
+}
+.styleadmin{
+    height:15vh;
+    width: 6vw;
+    border-radius: 5px;
+}
+p{
+    margin-top: 0;
+    font-size: 14px;
+}
+.descript{
+    margin-top: -2vh;
+    background-color: #201c02;
+    color: white;
+    padding: 2px;
+    text-align: center;
+    font-size: 10px;
+    text-decoration: none;
+    border-radius:0 6px 0 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;   
+    box-shadow: 0.3px 0.4px 2px 0.5px black;
+    width: 85%;
+    margin-left: 6%;
+    background-color: white;
+    margin-top: 3vh;
+}
+label{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 5%;
+    color: #753803;
+}
+
+input{
+    
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+    width: 87%;
+    height: 4vh;
+    margin-left: 5%;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.submit{
+    border: none;
+    background-color: rgb(223, 126, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    margin-top: 4vh;
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.7s;
+}
+.submit:hover{
+    background-color: #23d400;
+    transform: scale(1,1);
+}
+.submit2{
+    border: none;
+    background-color: rgb(223, 126, 0);
+    padding: 5px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 5vh;
+    margin-top: 2vh;
+    width: 90%;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+.submit2:hover{
+    background-color: #ff0000;
+    transform: scale(1,1);
+}
+.quitter{
+    
+    width: 20%;
+    padding: 1vh;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 80%;
+    transition: 0.8s;
+}
+.quitter:hover{
+    background-color: #f38a00;
+    transform: scale(1,1);
+}
+h3{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 50%;
+    margin-left: 25%;
+    padding: 5px;
+    margin-top: -5vh;
+} 
+}
